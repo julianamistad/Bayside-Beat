@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background: #F0F5F9;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+
+.container{
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+    width: 960px;
+    min-width: 740px;
+    max-width: 1000px;
+}
+#top{
+    width: 100%;
+}
+
+h1, h2{
+    color: #3399cc;
+    font-style: normal;
+    font-weight: 600;
+    font-family: source-sans-pro, sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+#top h1{
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main{
+    width: 58%;
+    margin-left:2%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#sidebar{
+    width:34%;
+    margin-left: 4%;
+    float: left;
+}
+
+nav#mainnav {
+    padding: 0;
+    background: #4d4d4d;
+    margin-bottom: -15px;
+}
+
+nav#mainnav ul{
+    list-style: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+nav#mainnav li {
+    width: 20%;
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav#mainnav li a {
+    
+    text-decoration: none;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav#mainnav li a:active {
+    background-color: #457ACE;
+}
+
+#heroImage{
+    width:100%;
+    z-index: 0;
+    margin-top: 0;
+    float: left;
+}
+
+.orangebox{
+    background: #FE6601;
+    width: 20%;
+    padding: 1%;
+    color: #FFFFFF;
+    font-size: 10px;
+    border-radius: 20px;
+    padding:2px 12px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 80px;
+}
+
+.orangebox h2{
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+figure{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+figure img{
+padding: 10px 10px;
+}
+
+#main a{
+    text-decoration: none;
+    color: orangered;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: orangered;
+}
+
+footer{
+    clear: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2%;
+    background-color: #43A6CB;
+    color: #FFFFFF;
+}
